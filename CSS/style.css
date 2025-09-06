@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    user-select: none; /*Controla se o usuario pode selecionar o texto*/
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+button{
+    width: 250px;
+    height:70px;
+    margin: 0 30px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    color: #6a9bd8;
+    background: #ebf5fc;
+    border-radius: 50px;
+}
+
+.botao1{
+    box-shadow: -6px -6px 10px rgba(255,255,255,0.8),
+                6px 6px 10px rgba(0,0,0,0.2);
+}
+
+.botao1:focus{
+    font-size: 24px;
+    box-shadow: inset -4px -4px 8px rgba(255,255,255,0.8),
+                inset 8px 8px 16px rgba(0,0,0,0.1);
+}
+
+.botao2{
+    font-size: 24px;
+    box-shadow: inset -4px -4px 8px rgba(255,255,255,0.5),
+                inset 8px 8px 16px rgba(0,0,0,0.1);
+
+}
+
+.botao2:focus{
+    font-size: 25px;
+    box-shadow: -6px -6px 10px rgba(255,255,255,0.8),
+                 6px 6px 10px rgba(0,0,0,0.1);
+}
